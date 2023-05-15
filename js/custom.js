@@ -11,6 +11,8 @@
         },1500,"linear")
     })
 
+
+    // 클릭하면 창 보이게 하기 
     $('section article p').on('click', function(){
         $(this).next().addClass('on')
         $('html, body').css({ overflow:'hidden'})
