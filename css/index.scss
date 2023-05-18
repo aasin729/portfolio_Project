@@ -15,7 +15,7 @@
                 height: 180px;
                 border-radius: 50%;
             }
-            h2{ font-size: 40px; line-height: 1.5; color: #fff; }
+            h2{ font-size: 40px; line-height: 1.6; color: #fff; }
         }
 
         .intro2{
@@ -39,6 +39,26 @@
 
         }
     }
+}
+
+.article2{
+  .box{
+    transform: translateY(15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    h3{ font-size: 18px;  padding-bottom: 20px;}
+    p{ font-size: 13px; font-weight: 600; line-height: 1.8;}
+
+    .box1{
+      .aboutme2{margin-top: 40px;}
+    }
+    .box2{
+      .aboutme4{margin-top: 30px;}
+    }
+  }
+
 }
 
 

@@ -28,11 +28,11 @@ h1 { position:fixed; top:40px; left:70px; z-index:2; color: #fff; font-size: 40p
 .scrollNavi li em { position:absolute; top:8px; left:20px; font-size:20px; font-weight:bold; color:rgb(2, 2, 2); text-shadow:1px 1px 1px #000;}
 .scrollNavi li span { display:block; width:3%; height:100%; position:absolute; transform:skewX(-30deg); box-shadow:1px 1px 1px #000;}
 .scrollNavi li.on span { width:100%;}
-.scrollNavi li:nth-child(1) span { background:#ff0f51;}
-.scrollNavi li:nth-child(2) span { background:#fffb02;}
-.scrollNavi li:nth-child(3) span { background:#b57de4;}
-.scrollNavi li:nth-child(4) span { background:#7cf923;}
-.scrollNavi li:nth-child(5) span { background:#3dbdfa;}
+.scrollNavi li:nth-child(1) span { background:#fa101c;}
+.scrollNavi li:nth-child(2) span { background:#249151;}
+.scrollNavi li:nth-child(3) span { background:#250ef1;}
+.scrollNavi li:nth-child(4) span { background:#edfc1d;}
+.scrollNavi li:nth-child(5) span { background:#f851c0;}
 
 /*카피라이트*/
 .copyright { position:fixed; bottom:20px; right:30px; font-family:arial; font-size:11px; color:#555;}
@@ -95,27 +95,38 @@ section>article>div.on{
 
 /*첫 번째 박스 콘텐츠*/
 section>article:nth-child(1) p { bottom:280px; right:150px;}
-section>article:nth-child(1) p span { color:#ff0f51;}
+section>article:nth-child(1) p span { color:#fa101c;}
 
 /*두 번째 박스 콘텐츠*/
 section>article:nth-child(2) p { bottom:250px; left:200px;}
-section>article:nth-child(2) p span { color:#fffb02;}
+section>article:nth-child(2) p span { color:#249151;}
 
 
 
 /*세 번째 박스 콘텐츠*/
 section>article:nth-child(3) p { bottom:400px; right:-100px;}
-section>article:nth-child(3) p span { color:#b57de4;}
+section>article:nth-child(3) p span { color:#250ef1;}
 
 /*네 번째 박스 콘텐츠*/
 section>article:nth-child(4) p { bottom:290px; left:100px;}
-section>article:nth-child(4) p span { color:#7cf923;}
+section>article:nth-child(4) p span { color:#edfc1d;}
 
 
 /*다섯 번째 박스 콘텐츠*/
 section>article:nth-child(5) p { bottom:100px; right:-150px;}
-section>article:nth-child(5) p span { color:#3dbdfa;}
+section>article:nth-child(5) p span { color:#f851c0;}
 
+
+/* 인트로 애니메이션 스타일 */
+.introAni { 
+    position:fixed; 
+    top:0; left:0; bottom:0; right: 0;
+    width:100%; 
+    z-index:9999999999;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content: center;
+    /* display: none; */
+}
 
 
 

@@ -17,7 +17,7 @@
 }
 .article1 .intro .intro1 h2 {
   font-size: 40px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #fff;
 }
 .article1 .intro .intro2 {
@@ -45,6 +45,30 @@
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+}
+
+.article2 .box {
+  transform: translateY(15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+}
+.article2 .box h3 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.article2 .box p {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+.article2 .box .box1 .aboutme2 {
+  margin-top: 40px;
+}
+.article2 .box .box2 .aboutme4 {
+  margin-top: 30px;
 }
 
 body {

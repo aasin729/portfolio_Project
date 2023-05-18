@@ -58,3 +58,31 @@ var swiper = new Swiper('.blog-slider', {
     }
 
   });
+
+
+// 인트로 애니메이션 관련 
+
+// 스크롤 없애기 
+$('html, body').css({ overflow:'hidden'})
+
+setTimeout(function(){
+
+    let count = 0;
+    let timer = setInterval(add, 50)
+    function add() {
+        count++
+        if (count>=100) { 
+            clearInterval(timer) 
+            $('.introAni').animate({
+               opacity:0
+            }, 800, function(){
+                $(this).remove()
+                // 스크롤 다시 생성
+                $('html, body').css({ overflow:'auto'})
+            })
+        }
+    }
+    
+}, 10)
+
+
