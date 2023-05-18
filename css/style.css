@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Orbitron);
 
 /*  Reset CSS  */
-* { margin:0;  padding:0; /* cursor: url(../img/cursor1.png), auto; */ } 
+* { margin:0;  padding:0; cursor: url(../img/cursor1.png), auto; } 
 ol,ul { list-style: none; }
 a { outline:0; text-decoration:none; color:#555; }
 img { border:0;}
@@ -24,7 +24,7 @@ h1 { position:fixed; top:40px; left:70px; z-index:2; color: #fff; font-size: 40p
 
 /*스크롤 네비게이션*/
 .scrollNavi { position:fixed; left:100px; top:300px; z-index:2;}
-.scrollNavi li { position:relative; width:200px; height:40px; margin-bottom:20px; font-size:12px; color:#fff; text-align:center; perspective:400px; cursor:pointer;}
+.scrollNavi li { position:relative; width:200px; height:40px; margin-bottom:20px; font-size:12px; color:#fff; text-align:center; perspective:400px; /* cursor:pointer; */}
 .scrollNavi li em { position:absolute; top:8px; left:20px; font-size:20px; font-weight:bold; color:rgb(2, 2, 2); text-shadow:1px 1px 1px #000;}
 .scrollNavi li span { display:block; width:3%; height:100%; position:absolute; transform:skewX(-30deg); box-shadow:1px 1px 1px #000;}
 .scrollNavi li.on span { width:100%;}
@@ -67,7 +67,7 @@ section > article:nth-child(5){
 
 
 /*박스 폰트 및 이미지 공통속성*/
-section>article>p {animation: fadeIn 1.3s infinite;  cursor: pointer;  position:absolute; font-weight: bold; width:500px; padding:30px 50px; color:#fff; opacity:1; }
+section>article>p {animation: fadeIn 1.3s infinite;  /*cursor: pointer;*/  position:absolute; font-weight: bold; width:500px; padding:30px 50px; color:#fff; opacity:1; }
 section>article>p>span {font-family:orbitron; font-weight: bold; font-size:60px; line-height:1.5; }
 section>article>p>em {font-family:orbitron; font-weight: bold; font-size:30px; line-height:1.5; }
 section>article>img { position:absolute;}

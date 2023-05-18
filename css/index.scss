@@ -1,3 +1,18 @@
+
+article .cover{
+  background: rgba(0,0,0,0.5);
+  // background: red;
+}
+
+article .close{
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 85%;
+  animation: fadeIn 0.8s infinite;
+  color: rgba(143, 140, 140, 0.781);
+}
+
+
 // article1부분
 .article1{
    .intro{
@@ -43,13 +58,16 @@
 
 .article2{
   .box{
-    transform: translateY(15%);
+    transform: translateY(10%);
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10%;
-    h3{ font-size: 18px;  padding-bottom: 20px;}
-    p{ font-size: 13px; font-weight: 600; line-height: 1.8;}
+    column-gap: 7%;
+    letter-spacing: 2px;
+    h3{ font-size: 23px; font-weight: bold;  padding-bottom: 10px;}
+    p{ font-size: 15px; font-weight: 600; line-height: 1.7;}
+    strong{ color: rgb(83, 168, 224);  }
+    span{ color: #fd3838; font-weight: bold; }
 
     .box1{
       .aboutme2{margin-top: 40px;}

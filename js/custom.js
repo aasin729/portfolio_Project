@@ -17,13 +17,27 @@
         $(this).next().addClass('on')
         $('html, body').css({ overflow:'hidden'})
     })
+    // 클릭하면 창 없어지게 하기 
     $('section article .close').on('click', function(){
+    
         $(this).parents('.cover').removeClass('on')
         $('html, body').css({ overflow:'auto'})
         
         return false
     })
 
+    // 창 밖에 클릭해도 없어지게 하기
+        // $('section article .cover').on('click', function(){
+        //     $(this).removeClass('on')
+        //     $('html, body').css({ overflow:'auto'})
+            
+        //     return false
+        // })
+
+        // $('section article .cover > div').on('click', function(e){
+        //     e.stopPropagation();
+        //     return false
+        // })
 
 
     // 스크롤하면 그림 화면으로 하나씩 보이기
