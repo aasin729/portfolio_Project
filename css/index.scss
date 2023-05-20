@@ -56,6 +56,8 @@ article .close{
     }
 }
 
+
+//article2 부분
 .article2{
   .box{
     transform: translateY(10%);
@@ -77,6 +79,16 @@ article .close{
     }
   }
 
+}
+
+//article3부분
+.article3{
+  .skill{margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 
@@ -135,9 +147,9 @@ min-height: 100vh;
   
   &__img {
      // width: 40%;
-    width: 450px;
+    width: 470px;
     flex-shrink: 0;
-    height: 400px;
+    height: 450px;
     background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
     box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
     border-radius: 20px;
@@ -263,3 +275,61 @@ min-height: 100vh;
   
 }
 
+
+// article5 부분
+.article5{
+
+  .logo{
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    gap: 30px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    div{
+      transition: all 0.3s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .info{
+    margin-top: 20px;
+    text-align: center;
+    h2{ font-size: 20px; }
+    p{font-size: 18px; margin-bottom: 10px;}
+  }
+
+}
+
+.sub2{
+  margin-top: 30px;
+}
+.sub2-text {
+    margin: 5px 0;
+    display: flex;
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 5px 0;
+    overflow: hidden;
+    transition: 0.5s;
+    font-size: 60px;
+    font-family: "Rubik Vinyl", cursive;
+
+    .sub2-wrap {
+        animation: textLoop 5s linear infinite;
+        // padding: 5px 0;s
+        padding-right: 50px;
+        @keyframes textLoop {
+          0% {
+            transform: translate3d(0, 0, 0);
+          }
+          100% {
+            transform: translate3d(-100%, 0, 0);
+          }
+     }
+      }
+    }
