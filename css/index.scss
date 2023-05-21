@@ -88,6 +88,14 @@ article .close{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
+    .skill1{
+      img{margin-left: 20px; animation: lightSpeedInLeft 0.8s forwards;
+    }
+    }
+    .skill2{
+     img{margin-left: 20px; animation: lightSpeedInRight 0.8s forwards;}
+    }
   }
 }
 
@@ -147,9 +155,9 @@ min-height: 100vh;
   
   &__img {
      // width: 40%;
-    width: 470px;
+    width: 450px;
     flex-shrink: 0;
-    height: 450px;
+    height: 420px;
     background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
     box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
     border-radius: 20px;
