@@ -84,18 +84,40 @@ article .close{
 //article3부분
 .article3{
   .skill{margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     .skill1{
-      img{margin-left: 20px; animation: lightSpeedInLeft 0.8s forwards;
+      text-align: center;
+      span{margin-left: 20px; 
+        display: inline-block; position: relative;
+        // animation: lightSpeedInLeft 1.2s alternate;
+        transition: all 1s;
+        div{ opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+         p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; }
+           text-align: center; }
+        &:hover{  background: black; border-radius: 50px; 
+          div{opacity: 1; }
+          img{opacity: 0; }
+        }
     }
     }
+
     .skill2{
-     img{margin-left: 20px; animation: lightSpeedInRight 0.8s forwards;}
+      margin-top: 30px;
+      text-align: center;
+      span{margin-left: 20px; 
+        display: inline-block; position: relative;
+        // animation: lightSpeedInLeft 1.2s alternate;
+        transition: all 1s;
+        div{ opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+         p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; }
+           text-align: center; }
+        &:hover{  background: black; border-radius: 50px; 
+          div{opacity: 1; }
+          img{opacity: 0; }
+        }
     }
+    }
+
   }
 }
 
@@ -295,7 +317,7 @@ min-height: 100vh;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    margin-left: 150px;
+    margin: 0 auto;
     div{
       transition: all 0.3s;
       &:hover{
