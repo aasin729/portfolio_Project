@@ -129,5 +129,14 @@ section>article:nth-child(5) p span { color:#f851c0;}
 }
 
 
+/* 무한회전 이미지 */
 
+.spin{position:fixed; top:150px; right:120px; }
+.spin img {animation: rotate_image 7s linear infinite;transform-origin: 50% 50%;}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
