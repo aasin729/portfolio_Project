@@ -113,6 +113,7 @@ article .close {
   right: 0;
   bottom: 0;
   text-align: center;
+  font-size: 18px;
 }
 .article3 .skill .skill1 span div p {
   position: absolute;
@@ -149,6 +150,7 @@ article .close {
   right: 0;
   bottom: 0;
   text-align: center;
+  font-size: 18px;
 }
 .article3 .skill .skill2 span div p {
   position: absolute;
@@ -297,7 +299,7 @@ body {
 }
 .blog-slider__text {
   color: #4e4a67;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 30px;
   line-height: 1.5em;
 }

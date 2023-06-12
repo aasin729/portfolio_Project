@@ -93,7 +93,7 @@ article .close{
         transition: all 1s;
         div{ opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
          p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; }
-           text-align: center; }
+           text-align: center; font-size: 18px; }
         &:hover{  background: black; border-radius: 50px; 
           div{opacity: 1; }
           img{opacity: 0; }
@@ -110,7 +110,7 @@ article .close{
         transition: all 1s;
         div{ opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
          p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; }
-           text-align: center; }
+           text-align: center; font-size: 18px; }
         &:hover{  background: black; border-radius: 50px; 
           div{opacity: 1; }
           img{opacity: 0; }
@@ -243,7 +243,7 @@ min-height: 100vh;
   
   &__text {
     color: #4e4a67;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 30px;
     line-height: 1.5em;
   }
